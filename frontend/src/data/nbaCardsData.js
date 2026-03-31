@@ -1,0 +1,30 @@
+// Mock NBA Card Data - 25 cards
+const nbaCardsData = [
+  { id: 1, playerName: "LeBron James", team: "Cleveland Cavaliers", year: 2003, brand: "Topps Chrome", rookieCard: true, gradedValue: 125000, psaGrade: 10 },
+  { id: 2, playerName: "LeBron James", team: "Cleveland Cavaliers", year: 2003, brand: "Upper Deck", rookieCard: true, gradedValue: 45000, psaGrade: 9 },
+  { id: 3, playerName: "Michael Jordan", team: "Chicago Bulls", year: 1986, brand: "Fleer", rookieCard: true, gradedValue: 350000, psaGrade: 10 },
+  { id: 4, playerName: "Michael Jordan", team: "Chicago Bulls", year: 1986, brand: "Star", rookieCard: true, gradedValue: 180000, psaGrade: 9 },
+  { id: 5, playerName: "Michael Jordan", team: "Chicago Bulls", year: 1997, brand: "Upper Deck", rookieCard: false, gradedValue: 55000, psaGrade: 10 },
+  { id: 6, playerName: "Stephen Curry", team: "Golden State Warriors", year: 2009, brand: "Topps", rookieCard: true, gradedValue: 8500, psaGrade: 10 },
+  { id: 7, playerName: "Stephen Curry", team: "Golden State Warriors", year: 2009, brand: "Upper Deck", rookieCard: true, gradedValue: 12000, psaGrade: 9 },
+  { id: 8, playerName: "Kobe Bryant", team: "Los Angeles Lakers", year: 1996, brand: "Topps Chrome", rookieCard: true, gradedValue: 180000, psaGrade: 10 },
+  { id: 9, playerName: "Kobe Bryant", team: "Los Angeles Lakers", year: 1996, brand: "Fleer", rookieCard: true, gradedValue: 95000, psaGrade: 9 },
+  { id: 10, playerName: "Kobe Bryant", team: "Los Angeles Lakers", year: 1996, brand: "Upper Deck", rookieCard: true, gradedValue: 72000, psaGrade: 10 },
+  { id: 11, playerName: "Tim Duncan", team: "San Antonio Spurs", year: 1997, brand: "Topps Chrome", rookieCard: true, gradedValue: 32000, psaGrade: 10 },
+  { id: 12, playerName: "Tim Duncan", team: "San Antonio Spurs", year: 1997, brand: "Fleer", rookieCard: true, gradedValue: 18000, psaGrade: 9 },
+  { id: 13, playerName: "Kevin Durant", team: "Seattle SuperSonics", year: 2007, brand: "Topps Chrome", rookieCard: true, gradedValue: 6500, psaGrade: 10 },
+  { id: 14, playerName: "Kevin Durant", team: "Seattle SuperSonics", year: 2007, brand: "Upper Deck", rookieCard: true, gradedValue: 4800, psaGrade: 9 },
+  { id: 15, playerName: "Giannis Antetokounmpo", team: "Milwaukee Bucks", year: 2013, brand: "Panini Prizm", rookieCard: true, gradedValue: 25000, psaGrade: 10 },
+  { id: 16, playerName: "Giannis Antetokounmpo", team: "Milwaukee Bucks", year: 2013, brand: "Topps", rookieCard: true, gradedValue: 8500, psaGrade: 10 },
+  { id: 17, playerName: "Luka Doncic", team: "Dallas Mavericks", year: 2018, brand: "Panini Prizm", rookieCard: true, gradedValue: 5500, psaGrade: 10 },
+  { id: 18, playerName: "Luka Doncic", team: "Dallas Mavericks", year: 2018, brand: "Donruss", rookieCard: true, gradedValue: 3200, psaGrade: 9 },
+  { id: 19, playerName: "Zion Williamson", team: "New Orleans Pelicans", year: 2019, brand: "Panini Prizm", rookieCard: true, gradedValue: 4200, psaGrade: 10 },
+  { id: 20, playerName: "Ja Morant", team: "Memphis Grizzlies", year: 2019, brand: "Panini Prizm", rookieCard: true, gradedValue: 5800, psaGrade: 10 },
+  { id: 21, playerName: "Victor Wembanyama", team: "San Antonio Spurs", year: 2023, brand: "Panini Prizm", rookieCard: true, gradedValue: 3500, psaGrade: 10 },
+  { id: 22, playerName: "Scottie Barnes", team: "Toronto Raptors", year: 2021, brand: "Panini Prizm", rookieCard: true, gradedValue: 1800, psaGrade: 10 },
+  { id: 23, playerName: "Jayson Tatum", team: "Boston Celtics", year: 2017, brand: "Panini Prizm", rookieCard: true, gradedValue: 2800, psaGrade: 10 },
+  { id: 24, playerName: "Damian Lillard", team: "Portland Trail Blazers", year: 2012, brand: "Panini Prizm", rookieCard: true, gradedValue: 3200, psaGrade: 10 },
+  { id: 25, playerName: "Anthony Edwards", team: "Minnesota Timberwolves", year: 2020, brand: "Panini Prizm", rookieCard: true, gradedValue: 2500, psaGrade: 10 },
+];
+
+export default nbaCardsData;
